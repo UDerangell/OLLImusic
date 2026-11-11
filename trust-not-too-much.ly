@@ -11,32 +11,32 @@ sopMusic =  {
  \set Staff.instrumentName = "Soprano"
  \override Rest.staff-position = #0 
  \override MultiMeasureRest.staff-position = #0
-  \tieNeutral 
+  \tieNeutral \slurNeutral
 
-  f''4 f''8 f'' ees''4 ees'' |  % 1
+  f''4 \mf f''8 f'' ees''4 ees'' |  % 1
   des''2 c''4 f''~ |  % 2
   f'' e'' f'' f'' |  % 3
   r2 c'''4 c'''8 c''' |  % 4
   d'''2 e''' |  % 5
   f''' r4 c'''~ |  % 6
-  c'''8 bes'' aes'' g'' f''4 d'' |  % 7
+  c'''8 (bes'' aes'') g'' f''4 (d'') |  % 7
   g'' c'' c''' c'''8 c''' |  % 8
   bes''4 bes'' aes''2 |  % 9
-  g''4 c'''~ c''' b'' |  % 10
+  g''4 c'''2 b''4 |  % 10
   c''' g'' bes'' f''8 f'' |  % 11
   g''4 aes'' bes''4. bes''8 |  % 12
-  aes''4 aes'' g''4. g''8 |  % 13
+  aes''4 aes'' g''4. aes''8 |  % 13
   bes''4 f'' f''' f'''8 f''' |  % 14
   ees'''4 ees''' d''' d''' |  % 15
   c''' c''' c'''2 |  % 16
-  c'''4. bes''8 aes'' bes'' c'''4 |  % 17
+  c'''4. bes''8 (aes'' bes'' c'''4) |  % 17
   des''' c''' bes''2 |  % 18
-  c'''1 |  % 19
-  r4 aes'' des'''8 ees''' des''' c''' |  % 20
+  c'''1 \> |  % 19
+  r4 \! aes'' \mp des'''8 ees''' des''' c''' |  % 20
   bes''4 bes'' ees'''8 f''' ees''' des''' |  % 21
   c'''2 r2 |  % 22
   r2 g''4 g''8 g'' |  % 23
-  aes'' g'' f'' g'' aes''4 bes'' |  % 24
+  aes'' g'' f'' g'' (aes''4) bes'' |  % 24
   c''' des''' c'''4. bes''8 |  % 25
   a''2 f''~ |  % 26
   f'' c'''~ |  % 27
@@ -47,57 +47,57 @@ sopMusic =  {
   r2. c'''4 |  % 32
   ees'''8 d''' c''' bes'' aes''4 f'' |  % 33
   r4 g'' bes''8 aes'' g'' f'' |  % 34
-  e''4 f''~ f'' e'' |  % 35
-  f'' c''' c'''2 |  % 36
+  e''4 f''2 (e''4) |  % 35
+  f''4 c''' c'''2 |  % 36
   a'' r4 aes'' |  % 37
-  g'' c'''~ c''' bes'' |  % 38
+  g'' c'''2 bes''4 |  % 38
   aes'' aes'' g''2 |  % 39
   f''4 c'' ees''8 f'' g'' aes'' |  % 40
-  bes'' g'' aes'' bes'' c'''4. bes''8 |  % 41
-  aes'' f'' aes''4~ aes'' g'' |  % 42
+  bes'' g'' aes'' bes'' c'''4. (bes''8 |  % 41
+  aes'' g'' aes''2 g''4) |  % 42
   f''2 r2 |  % 43
-  r1 |  % 44
-  r1 |  % 45
-  r1 |  % 46
-  r4 aes'' aes'' aes'' |  % 47
-  g''8 f'' g'' aes'' g''4 bes''~ |  % 48
-  bes'' aes'' g'' f'' |  % 49
+  R1 |  % 44
+  R1 |  % 45
+  R1 |  % 46
+  r4 aes'' \p aes'' aes'' |  % 47
+  g''8 f'' (g'' aes'') g''4 bes''~ |  % 48
+  bes'' aes'' (g'') f'' |  % 49
   e''4. f''8 g'' aes'' bes''4~ |  % 50
-  bes'' a'' f'' g'' |  % 51
-  aes'' g''~ g''8 f'' e'' d'' |  % 52
+  bes'' a'' f'' (g'') |  % 51
+  aes'' g''4.  f''8 (ees'' d'') |  % 52
   c''2 c'''~ |  % 53
   c''' bes''~ |  % 54
   bes'' aes'' |  % 55
   g'' f'' |  % 56
   ees'' ees'' |  % 57
-  ees'''1~ |  % 58
-  ees'''2 des''' |  % 59
+  ees'''1~ \cresc |  % 58
+  ees'''2 \! des''' |  % 59
   c'''2. c'''4 |  % 60
   bes''1 |  % 61
-  r4 bes''~ bes'' aes'' |  % 62
+  r4 bes''2 \f aes''4 |  % 62
   g''2 f'' |  % 63
   g''1 |  % 64
-  r4 aes''8 bes'' c'''2 |  % 65
-  r4 c'''8 d''' ees'''2~ |  % 66
-  ees'''4 d'''8 c''' bes''2~ |  % 67
+  r4 aes''8 \mf bes'' c'''2 |  % 65
+  r4 c'''8 (d''') ees'''2~ |  % 66
+  ees'''4 d'''8 (c''') bes''2~ |  % 67
   bes''4 c''' d'''2 |  % 68
   c'''2. aes''4 |  % 69
   g'' c'' ees'' f'' |  % 70
   g''2 r2 |  % 71
-  r1 |  % 72
+  R1 |  % 72
   r4 c''' c''' g'' |  % 73
   aes''4. bes''8 c''' bes'' aes'' g'' |  % 74
   f''2 r4 f''' |  % 75
   f''' bes'' des'''4. ees'''8 |  % 76
   f''' ees''' des''' c''' bes''4 des'''~ |  % 77
   des''' c''' bes''2 |  % 78
-  bes''4 aes''~ aes'' g'' |  % 79
+  bes''4 aes''2 g''4 |  % 79
   aes'' ees''' ees''' bes'' |  % 80
   c'''2 bes''~ |  % 81
   bes''4 aes''8 g'' f''4 f'''~ |  % 82
-  f''' ees'''~ ees''' des''' |  % 83
-  c'''2. c'''4 |  % 84
-  c'''1 |  % 85
+  f''' ees'''2 des'''4 |  % 83
+  c'''2. \< c'''4 \! |  % 84
+  c'''1 \fermata \f |  % 85
   \bar "|."
 } 
 
@@ -107,7 +107,7 @@ sopMusic =  {
   \set Staff.instrumentName = "Alto"
   \override Rest.staff-position = #0 
   \override MultiMeasureRest.staff-position = #0
-  \tieNeutral 
+  \tieNeutral  \slurNeutral
 
   R1 |  % 1
   r2 c''4 c''8 c'' |  % 2
@@ -135,8 +135,8 @@ sopMusic =  {
   c'' bes' aes' bes' c''4 d'' |  % 24
   e'' f'' f'' e'' |  % 25
   f''2 r2 |  % 26
-  r1 |  % 27
-  r1 |  % 28
+  R1 |  % 27
+  R1 |  % 28
   r2. g'4 |  % 29
   g'2 r4 c'' |  % 30
   ees''8 d'' c'' bes' aes' g' f'4~ |  % 31
@@ -150,9 +150,9 @@ sopMusic =  {
   c'' bes' |  % 39
   aes'4 aes' g'2 |  % 40
   g' r2 |  % 41
-  r1 |  % 42
-  r1 |  % 43
-  r1 |  % 44
+  R1 |  % 42
+  R1 |  % 43
+  R1 |  % 44
   r2. g'4 |  % 45
   ees' aes'~ aes' g' |  % 46
   aes' c'' c'' c'' |  % 47
@@ -215,16 +215,16 @@ partThree = {
   f' f'8 f' ees'4 ees' |  % 13
   des' des' c' c' |  % 14
   g'2 r2 |  % 15
-  r1 |  % 16
-  r1 |  % 17
-  r1 |  % 18
+  R1 |  % 16
+  R1 |  % 17
+  R1 |  % 18
   r2. aes4 |  % 19
   des'8 ees' des' c' bes4 bes |  % 20
   ees'8 f' ees' des' c'4 c' |  % 21
   f'2. f'4 |  % 22
   g'8 aes' g' f' r2 |  % 23
-  r1 |  % 24
-  r1 |  % 25
+  R1 |  % 24
+  R1 |  % 25
   c'4 c' r2 |  % 26
   f' ees' |  % 27
   d'4 d' c'2~ |  % 28
@@ -295,7 +295,7 @@ tenorMusic = {
   \set Staff.instrumentName = "Tenor"
   \override Rest.staff-position = #0 
   \override MultiMeasureRest.staff-position = #0
-  \tieNeutral 
+  \tieNeutral  \slurNeutral
 
   r2 c'4 c'8 c' |  % 1
   bes4 bes aes aes |  % 2
@@ -312,7 +312,7 @@ tenorMusic = {
   c'2 bes~ |  % 13
   bes c' |  % 14
   c r2 |  % 15
-  r1 |  % 16
+  R1 |  % 16
   r2 d'4 d'8 d' |  % 17
   e'4 f'~ f' e'~ |  % 18
   e'2 f'~ |  % 19
@@ -337,7 +337,7 @@ tenorMusic = {
   ees'8 d' c' bes aes g f4~ |  % 38
   f2. e4 |  % 39
   aes2 r2 |  % 40
-  r1 |  % 41
+  R1 |  % 41
   r4 c' e'8 d' c' bes |  % 42
   aes4 aes g g~ |  % 43
   g2 r2 |  % 44
@@ -354,11 +354,11 @@ tenorMusic = {
   d'2 c'4. d'8 |  % 55
   ees'1 |  % 56
   ees'2 r2 |  % 57
-  r1 |  % 58
-  r1 |  % 59
-  r1 |  % 60
-  r1 |  % 61
-  r1 |  % 62
+  R1 |  % 58
+  R1 |  % 59
+  R1 |  % 60
+  R1 |  % 61
+  R1 |  % 62
   r4 c'~ c' bes~ |  % 63
   bes2 aes |  % 64
   g f~ |  % 65
@@ -377,8 +377,8 @@ tenorMusic = {
   f' e'~ |  % 78
   e' f' |  % 79
   c' r2 |  % 80
-  r1 |  % 81
-  r1 |  % 82
+  R1 |  % 81
+  R1 |  % 82
   g'4 f'8 ees' d'4 d'~ |  % 83
   d'2 g |  % 84
   R1 |  % 85
@@ -389,12 +389,12 @@ tenorMusic = {
   f' e' f' c' |  % 90
   c' ees'~ ees'2 |  % 91
   d'4 r4 c' r4 |  % 92
-  r1 |  % 93
-  r1 |  % 94
-  r1 |  % 95
-  r1 |  % 96
-  r1 |  % 97
-  r1 |  % 98
+  R1 |  % 93
+  R1 |  % 94
+  R1 |  % 95
+  R1 |  % 96
+  R1 |  % 97
+  R1 |  % 98
   r2 ees4. f8 |  % 99
   g4 f ees4. ees8 |  % 100
   f1 |  % 101
@@ -413,7 +413,7 @@ bassMusic = {
   \set Staff.instrumentName = "Bass"
   \override Rest.staff-position = #0 
   \override MultiMeasureRest.staff-position = #0
-  \tieNeutral 
+  \tieNeutral  \slurNeutral
 
   R1 |  % 1
   R1 |  % 2
@@ -426,7 +426,7 @@ bassMusic = {
   r2 f4 f8 f |  % 9
   ees4 ees des des |  % 10
   c2 r2 |  % 11
-  r1 |  % 12
+  R1 |  % 12
   r2 c'4 c'8 c' |  % 13
   bes4 bes aes aes |  % 14
   g1 |  % 15
@@ -434,8 +434,8 @@ bassMusic = {
   f4 aes~ aes8 g f ees |  % 17
   des4 aes, ees2 |  % 18
   aes, r2 |  % 19
-  r1 |  % 20
-  r1 |  % 21
+  R1 |  % 20
+  R1 |  % 21
   r2. bes,4 |  % 22
   ees8 f ees des c4 c |  % 23
   f8 g aes g f4 ees8 d |  % 24
@@ -452,8 +452,8 @@ bassMusic = {
   g4 c~ c r4 |  % 35
   c f,8 g, aes, bes, c4~ |  % 36
   c4. f,8~ f,4. r8 |  % 37
-  r1 |  % 38
-  r1 |  % 39
+  R1 |  % 38
+  R1 |  % 39
   r2. f4 |  % 40
   c8 d ees f~ f g ees f |  % 41
   g aes4. g8 f4.~ |  % 42
