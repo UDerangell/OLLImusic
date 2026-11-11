@@ -110,25 +110,25 @@ sopMusic =  {
   \tieNeutral  \slurNeutral
 
   R1 |  % 1
-  r2 c''4 c''8 c'' |  % 2
+  r2 c''4 \mf c''8 c'' |  % 2
   bes'4 bes' aes' aes' |  % 3
   g'2 f' |  % 4
   bes'4 bes' g'2 |  % 5
   f' r2 |  % 6
   c''4 c''8 c'' d''4 d'' |  % 7
-  e'' e'' f''4. e'8 |  % 8
+  e'' e'' f''4. ees''8 |  % 8
   des''2 c'' |  % 9
   R1 |  % 10
   r2 f''4 f''8 f'' |  % 11
   ees''2 des'' |  % 12
   c''1 |  % 13
-  f'4. g'8 aes' bes' c''4 |  % 14
-  b' c''~ c'' b' |  % 15
+  f'4. (g'8 aes' bes' c''4) |  % 14
+  b' c''2 b'4 |  % 15
   c'' aes' g'2 |  % 16
-  aes'4 c''~ c''8 bes' aes' g' |  % 17
-  f'4 aes'~ aes' g' |  % 18
-  aes'2 aes' |  % 19
-  f' bes'8 c'' bes' aes' |  % 20
+  aes'4 c''~ c''8 (bes' aes' g' |  % 17
+  f'4) aes'2 g'4 |  % 18
+  aes'2 \> aes' |  % 19
+  f' \mp \! bes'8 c'' bes' aes' |  % 20
   g'4 g' c''8 des'' c'' bes' |  % 21
   aes'4 aes' des''8 ees'' des'' c'' |  % 22
   bes'4 bes' ees''8 f'' ees'' des'' |  % 23
@@ -138,7 +138,7 @@ sopMusic =  {
   R1 |  % 27
   R1 |  % 28
   r2. g'4 |  % 29
-  g'2 r4 c'' |  % 30
+  g'2 r4 c'' \f |  % 30
   ees''8 d'' c'' bes' aes' g' f'4~ |  % 31
   f' e' aes'2 |  % 32
   g' r2 |  % 33
@@ -154,46 +154,46 @@ sopMusic =  {
   R1 |  % 43
   R1 |  % 44
   r2. g'4 |  % 45
-  ees' aes'~ aes' g' |  % 46
-  aes' c'' c'' c'' |  % 47
-  bes'8 aes' bes' c'' bes'4 cis'' |  % 48
-  d'' c''~ c''8 bes' aes'4 |  % 49
-  g'2 e''4 d''~ |  % 50
-  d''8 c'' c''4~ c'' b' |  % 51
+  ees' aes'2 \> g'4 |  % 46
+  aes' \! c'' \p c'' c'' |  % 47
+  bes'8 aes' (bes' c'') bes'4 des''~ |  % 48
+  des''4 c''4. bes'8 (aes'4) |  % 49
+  g'2 ees''4 d''~ |  % 50
+  d''8 c'' c''2 b'4 |  % 51
   R1 |  % 52
   R1 |  % 53
   r4 f' des''2~ |  % 54
   des'' c'' |  % 55
   bes'4 ees' bes'2~ |  % 56
-  bes'4 aes' aes'2~ |  % 57
-  aes'4 g'8 f' g'2 |  % 58
+  bes'4 aes' aes'2~ \cresc |  % 57
+  aes'4 \! g'8 (f' g'2) |  % 58
   R1 |  % 59
-  r2 f''~ |  % 60
+  r2 f''~ \f |  % 60
   f'' ees''~ |  % 61
   ees'' des'' |  % 62
   R1 |  % 63
-  c' |  % 64
-  c''2 r4 aes8 bes |  % 65
-  c''2. bes'8 aes' |  % 66
-  g'2. f'8 ees' |  % 67
+  c'' |  % 64
+  c''2 r4 aes'8 \mf bes' |  % 65
+  c''2. bes'8 (aes') |  % 66
+  g'2. f'8 (ees') |  % 67
   d'4 r4 g'2~ |  % 68
   g'4 g' aes'8 bes' c'' d'' |  % 69
-  ees''2. d''8 c'' |  % 70
-  b'4 c''~ c'' b' |  % 71
-  c'' g'~ g' bes' |  % 72
+  ees''2. d''8 (c'') |  % 70
+  b'4 c''2 (b'4) |  % 71
+  c'' g'2 bes'4 |  % 72
   aes'2 g' |  % 73
   R1 |  % 74
   r4 f'' f'' c'' |  % 75
   des''4. ees''8 f'' ees'' des'' c'' |  % 76
   bes'4. c''8 des'' c'' bes' aes' |  % 77
-  g'4 aes'~ aes' g'8 f' |  % 78
+  g'4 aes'2 g'8 f' |  % 78
   ees'4 ees'' ees'' bes' |  % 79
   c''2 bes' |  % 80
-  aes'8 aes' ees''4~ ees'' des'' |  % 81
+  aes'8 aes' ees''2 des''4 |  % 81
   R1 |  % 82
   aes'4 g'~ g'8 g' f'4 |  % 83
-  e' f'~ f' e' |  % 84
-  f'1 |  % 85
+  e' \< f'2 e'4 |  % 84
+  f'1 \! \f \fermata |  % 85
   \bar "|."
 }
 
