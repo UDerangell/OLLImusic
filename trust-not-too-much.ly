@@ -398,7 +398,7 @@ bassMusic = {
   R1 |  % 2
   R1 |  % 3
   R1 |  % 4
-  r2 c4 c8 c |  % 5
+  r2 c4 \mf c8 c |  % 5
   d4 d e e |  % 6
   f2 d |  % 7
   c f, |  % 8
@@ -415,7 +415,7 @@ bassMusic = {
   aes, r2 |  % 19
   R1 |  % 20
   R1 |  % 21
-  r2. bes,4 |  % 22
+  r2. bes,4 \mp  |  % 22
   ees8 f ees des c4 c |  % 23
   f8 g aes g f4 ees8 d |  % 24
   c4 bes, c2 |  % 25
@@ -423,66 +423,62 @@ bassMusic = {
   aes1 |  % 27
   f |  % 28
   g |  % 29
-  r4 c f8 g aes4 |  % 30
+  r4 c \f f8 g aes8 bes8 |  % 30
   c'2 r2 |  % 31
-  r4 c f8 g aes bes~ |  % 32
-  bes c'4.~ c'8 r4 f8~ |  % 33
-  f c d ees f g4.~ |  % 34
-  g4 c~ c r4 |  % 35
-  c f,8 g, aes, bes, c4~ |  % 36
-  c4. f,8~ f,4. r8 |  % 37
+  r4 c f8 g aes (bes) |  % 32
+  c'2 r4 f4 |  % 33
+  c8 d ees f g2 |  % 34
+  c2 r4 c4|  % 35
+  f,8 g, aes, bes, c2 |  % 36
+  f,2 r2 |  % 37
   R1 |  % 38
   R1 |  % 39
-  r2. f4 |  % 40
-  c8 d ees f~ f g ees f |  % 41
-  g aes4. g8 f4.~ |  % 42
-  f8 ees4.~ ees4 bes,~ |  % 43
-  bes,8 c d c d ees f4~ |  % 44
-  f c~ c8 d4 ees8 |  % 45
-  d ees f g~ g4 g8 aes |  % 46
-  bes c'4 bes8~ bes2 |  % 47
-  aes aes, |  % 48
+  r4 f4  c8 d ees f | % 40
+  g ees f g aes4. (g8) | % 41
+  f2 ees2 | % 42
+  bes,4. c8 d c (d ees) | % 43
+  f2 c4. d8 | % 44
+  ees8 d ees f g4. g8 | % 45
+  aes8 (bes) c'4  \> bes2 ( | % 46 - slur needs to start before bar check
+  aes2) \p  aes, | % 47
+  R1 |  % 48
   R1 |  % 49
   R1 |  % 50
   R1 |  % 51
-  R1 |  % 52
-  r2. c4~ |  % 53
-  c2.~ c8 c~ |  % 54
-  c c4 des8~ des2~ |  % 55
-  des8 des4. ees2~ |  % 56
-  ees ees~ |  % 57
-  ees~ ees8 ees4.~ |  % 58
-  ees1~ |  % 59
-  ees2. f4~ |  % 60
-  f1~ |  % 61
-  f2.~ f8 bes,~ |  % 62
-  bes,2.~ bes,8 bes,~ |  % 63
-  bes,1 |  % 64
-  c~ |  % 65
-  c~ |  % 66
-  c8 r4. r4. f8 |  % 67
-  g aes4.~ aes g8 |  % 68
-  f4 ees~ ees2 |  % 69
-  f4 g~ g2 |  % 70
-  f4. e8~ e4 e8 f |  % 71
-  g aes bes c'~ c'2~ |  % 72
-  c'8 bes aes4 g2 |  % 73
-  g c |  % 74
-  R1 |  % 75
-  r2. r8 f~ |  % 76
-  f f4 c8~ c4 des~ |  % 77
-  des8 ees f4~ f bes,~ |  % 78
-  bes,1~ |  % 79
-  bes,4. bes,8~ bes,4. ees8~ |  % 80
-  ees1~ |  % 81
-  ees2 ees |  % 82
-  aes, g,~ |  % 83
-  g,8 aes,4.~ aes,8 bes,4.~ |  % 84
-  bes,8 c4.~ c8 des4.~ |  % 85
-  des4 c~ c bes,~ |  % 86
-  bes, c~ c2 |  % 87
-  c4. f,8~ f,2~ |  % 88
-  f,~ f,8  % 89
+  r2 c2~ |  % 52
+  c2 c4 c |  % 53
+  des2. des4 |  % 54
+  ees1 |  % 55
+  ees1 |  % 56
+  ees1~ |  % 57
+  ees1 |  % 58
+  f1~ |  % 59
+  f1 |  % 60
+  bes,1 |  % 61
+  bes,1 \f |  % 62
+  c1~ |  % 63
+  c |  % 64
+  r2 r4 f8 \mf g |  % 65
+  aes2. g8 (f8) | % 66
+  ees2. f4 | % 67
+  g2. f4 | % 68
+  e4. e8 f g (aes bes) | % 69
+  c'2. bes8 aes8 | % 70
+  g2 g |  % 71
+  c2 r2 |  % 72
+  R1 |  % 73
+  r4 f4 f4 c4 | % 74
+  des4. ees8 (f2) | % 75
+  bes,1~ |  % 76
+  bes,2 bes,2|  % 77
+  ees1~ |  % 78
+  ees2 ees |  % 79
+  aes, g, |  % 80
+  aes,2 bes,2 | % 81
+  c2 des2 |  % 82
+  c2 bes, |  % 83
+  c2. \< c4 | % 84
+  f,1 \! \f \fermata | % 85
   \bar "|."
 }
 
