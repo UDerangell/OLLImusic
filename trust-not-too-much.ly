@@ -6,7 +6,7 @@
 }
 
 sopMusic =  { 
- \clef "treble^8" \key c \minor \time 4/4 
+ \clef "treble^8" \key c \minor \time 2/2 
  \stemNeutral
  \set Staff.instrumentName = "Soprano"
  \override Rest.staff-position = #0 
@@ -102,7 +102,7 @@ sopMusic =  {
 } 
 
 altoMusic = {
-  \clef treble \key c \minor \time 4/4 
+  \clef treble \key c \minor \time 2/2 
   \stemNeutral
   \set Staff.instrumentName = "Alto"
   \override Rest.staff-position = #0 
@@ -199,7 +199,7 @@ sopMusic =  {
 
 % ---------------- Part 3  (MIDI track 3, range 48-68) ----------------
 partThree = {
-  \clef bass \key c \minor \time 4/4 
+  \clef bass \key c \minor \time 2/2 
   R1 |  % 1
   R1 |  % 2
   r2 c'4 c'8 c' |  % 3
@@ -290,125 +290,104 @@ partThree = {
 
 % ---------------- Part 4  (MIDI track 4, range 48-70) ----------------
 tenorMusic = {
-  \clef treble \key c \minor \time 4/4 
+  \clef treble \key c \minor \time 2/2 
   \stemNeutral
   \set Staff.instrumentName = "Tenor"
   \override Rest.staff-position = #0 
   \override MultiMeasureRest.staff-position = #0
   \tieNeutral  \slurNeutral
 
-  r2 c'4 c'8 c' |  % 1
+  r2 c'4 \mf c'8 c' |  % 1
   bes4 bes aes aes |  % 2
   g2 f |  % 3
-  g4 e f2 |  % 4
-  r2 f4 bes |  % 5
-  g1 |  % 6
-  f4 c'~ c' b |  % 7
+  g4 (e) f2 |  % 4
+  R1 |  % 5
+  f4 bes g2 |  % 6
+  f4 c'2 b4 |  % 7
   R1 |  % 8
   R1 |  % 9
-  R1 |  % 10
-  f'4 f'8 f'~ f'2 |  % 11
-  ees'4 ees' des' des' |  % 12
-  c'2 bes~ |  % 13
-  bes c' |  % 14
-  c r2 |  % 15
-  R1 |  % 16
-  r2 d'4 d'8 d' |  % 17
-  e'4 f'~ f' e'~ |  % 18
-  e'2 f'~ |  % 19
-  f'4 c' f' ees' |  % 20
-  ees'1 |  % 21
-  ees' |  % 22
-  R1 |  % 23
-  R1 |  % 24
-  r2. f4 |  % 25
-  bes8 c' bes aes~ aes2 |  % 26
-  g4 g c'8 des' c' bes |  % 27
-  aes bes c' bes aes4 g8 f~ |  % 28
-  f2 g4 bes |  % 29
-  g2 r2 |  % 30
-  des'1~ |  % 31
-  des'2 c' |  % 32
-  f'2. ees'4~ |  % 33
-  ees'2 d'4 c' |  % 34
-  d'2 c'~ |  % 35
-  c'1 |  % 36
-  r2. c'4 |  % 37
-  ees'8 d' c' bes aes g f4~ |  % 38
-  f2. e4 |  % 39
-  aes2 r2 |  % 40
-  R1 |  % 41
-  r4 c' e'8 d' c' bes |  % 42
-  aes4 aes g g~ |  % 43
-  g2 r2 |  % 44
-  f r4 c' |  % 45
-  g8 aes bes g~ g2 |  % 46
-  aes8 bes c' d' ees'2 |  % 47
+  r2 f'4 f'8 f'8 |  % 10
+  ees'4 ees' des' des' |  % 11
+  c'2 bes |  % 12
+  R1 |  % 13
+  R1 |  % 14
+  r2 d'4 d'8 d' |  % 15
+  e'4 f'2 (e'4) |  % 16
+  f'2. c'4 | %17
+  f'4 ees' ees'2 |  % 18
+  ees'1 \> |  % 19
+  R1 \! |  % 20
+  R1 |  % 21
+  r4 f4 \mp bes8 c' bes aes |  % 22
+  g4 g c'8 des' c' bes |  % 23
+  aes bes (c' bes aes4) g8 (f) |  % 24
+  g4 bes g2 |  % 25
+  r2 des'2~ |  % 26
+  des'2 c' |  % 27
+  f'2. ees'4 |  % 28
+  d'4 (c') d'2 |  % 29
+  c'1 |  % 30
+  r2. c'4 \f |  % 31
+  ees'8 d' c' bes aes g f4~ |  % 32
+  f4 e4 aes2 |  % 33
+  R1 |  % 34
+  r4 c' e'8 d' c' bes |  % 35
+  aes4 aes g g |  % 36
+  R1 | % 37
+  r4 c' g8 aes bes g | % 38
+  aes8 bes c' d' ees'2 |  % 39
+  R1 |  % 40
+  r4 c'4 f8 g aes bes | % 41 
+  c'8 bes c' d' ees'4 bes8 c' |  % 42
+  d'8 c' d' ees' f'2 |  % 43
+  c'4. d'8 ees' d' ees' f' |  % 44
+  g'4 ees' d'2 | % 45
+  c'4. (d'8) \> ees'2 |  % 46
+  ees'2 \! \p r2 |  % 47
   R1 |  % 48
-  r2. c'4 |  % 49
-  f8 g aes bes c' bes c' d' |  % 50
-  ees'4 bes8 c'~ c'2 |  % 51
-  d'8 c' d' ees' f'2 |  % 52
-  c'4. d'8 ees' d' ees' f'~ |  % 53
-  f'2 g'4 ees' |  % 54
-  d'2 c'4. d'8 |  % 55
-  ees'1 |  % 56
-  ees'2 r2 |  % 57
-  R1 |  % 58
-  R1 |  % 59
+  R1 |  % 49
+  R1 |  % 50
+  R1 |  % 51
+  r4 c'2 bes4 |  % 52
+  aes2 g |  % 53
+  f1 |  % 54
+  R1 |  % 55
+  R1 |  % 56
+  r4 c'4 ees'2 | % 57
+  r2 des'2 |  % 58
+  c'2 bes |  % 59
   R1 |  % 60
-  R1 |  % 61
-  R1 |  % 62
-  r4 c'~ c' bes~ |  % 63
-  bes2 aes |  % 64
-  g f~ |  % 65
-  f1 |  % 66
+  d'2 ees' |  % 61
+  r2 g'2 \f |  % 62
+  e'4 e' f'2~ |  % 63
+  f'2 e'2 |  % 64
+  f'2 c'2 | % 65
+  R1 |  % 66
   R1 |  % 67
-  R1 |  % 68
-  r2. c'4 |  % 69
-  ees'2 bes' |  % 70
-  des'1 |  % 71
-  c'2 bes |  % 72
-  R1 |  % 73
-  r2 d' |  % 74
-  ees' f' |  % 75
-  g'1 |  % 76
-  e'4 e' f'2~ |  % 77
-  f' e'~ |  % 78
-  e' f' |  % 79
-  c' r2 |  % 80
-  R1 |  % 81
-  R1 |  % 82
-  g'4 f'8 ees' d'4 d'~ |  % 83
-  d'2 g |  % 84
-  R1 |  % 85
-  R1 |  % 86
-  r2 g'4 d' |  % 87
-  ees'4. f'8 g' f' ees' d'~ |  % 88
-  d'2 c'4 f' |  % 89
-  f' e' f' c' |  % 90
-  c' ees'~ ees'2 |  % 91
-  d'4 r4 c' r4 |  % 92
-  R1 |  % 93
-  R1 |  % 94
-  R1 |  % 95
-  R1 |  % 96
-  R1 |  % 97
-  R1 |  % 98
-  r2 ees4. f8 |  % 99
-  g4 f ees4. ees8 |  % 100
-  f1 |  % 101
-  R1 |  % 102
-  g4 f c'4. c'8~ |  % 103
-  c'2 a~ |  % 104
-  a1~ |  % 105
-  a2  % 106
+  g'4 f'8 (ees') d'4 d' |  % 68
+  g2 r2 |  % 69
+  R1 |  % 70
+  r2 g'4 d' |  % 71
+  ees'4. f'8 g' f' ees' d' |  % 72
+  c'4 f'  f' e' |  % 73
+  f' c' c' ees' |  % 74
+  R1 |  % 75
+  R1 |  % 76
+  R1 |  % 77
+  R1 |  % 78
+  R1 |  % 79
+  R1 |  % 80
+  ees4. f8 g4 f | % 81
+  ees4. ees8  f2 |  % 82
+  R1 |  % 83
+  g4 \< f c'4. c'8 |  % 84
+  a1 \! \f \fermata |  % 85
   \bar "|."
 }
 
 % ---------------- Part 5  (MIDI track 5, range 41-60) ----------------
 bassMusic = {
-  \clef "bass^8" \key c \minor \time 4/4 
+  \clef "bass^8" \key c \minor \time 2/2 
   \stemNeutral
   \set Staff.instrumentName = "Bass"
   \override Rest.staff-position = #0 
