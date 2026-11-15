@@ -34,17 +34,17 @@ sopMusic =  {
   c'''1 \> |  % 19
   r4 \! aes'' \mp des'''8 ees''' des''' c''' |  % 20
   bes''4 bes'' ees'''8 f''' ees''' des''' |  % 21
-  c'''2 r2 |  % 22
-  r2 g''4 g''8 g'' |  % 23
+  c'''2 r4 f''4 |  % 22
+  g''8 aes'' g'' f'' g''4 g''8 g'' |  % 23
   aes'' g'' f'' g'' (aes''4) bes'' |  % 24
   c''' des''' c'''4. bes''8 |  % 25
   a''2 f''~ |  % 26
-  f'' c'''~ |  % 27
-  c'''4 bes'' aes''2 |  % 28
-  g''2. d'''4 |  % 29
+  f'' ees'' |  % 27
+  d''4 d'' c''2~  |  % 28
+  c''2 b''4 d'''4 |  % 29
   ees'''8 d''' c''' bes'' aes'' g'' f''4~ |  % 30
   f'' e'' f'' f'' |  % 31
-  r2. c'''4 |  % 32
+  r4 e''4 aes''4 c'''4 |  % 32
   ees'''8 d''' c''' bes'' aes''4 f'' |  % 33
   r4 g'' bes''8 aes'' g'' f'' |  % 34
   e''4 f''2 (e''4) |  % 35
@@ -57,9 +57,9 @@ sopMusic =  {
   aes'' g'' aes''2 g''4) |  % 42
   f''2 r2 |  % 43
   R1 |  % 44
-  R1 |  % 45
-  R1 |  % 46
-  r4 aes'' \p aes'' aes'' |  % 47
+  r2. g''4 |  % 45
+  ees'' aes''2 \> g''4 |  % 46
+  aes'' \! aes'' \p aes'' aes'' |  % 47
   g''8 f'' (g'' aes'') g''4 bes''~ |  % 48
   bes'' aes'' (g'') f'' |  % 49
   e''4. f''8 g'' aes'' bes''4~ |  % 50
@@ -83,11 +83,11 @@ sopMusic =  {
   bes''4 c''' d'''2 |  % 68
   c'''2. aes''4 |  % 69
   g'' c'' ees'' f'' |  % 70
-  g''2 r2 |  % 71
-  R1 |  % 72
+  g''2 d''2 |  % 71
+  c'''4 g''2 bes''4  |  % 72
   r4 c''' c''' g'' |  % 73
   aes''4. bes''8 c''' bes'' aes'' g'' |  % 74
-  f''2 r4 f''' |  % 75
+  f''2 c'''4 f''' |  % 75
   f''' bes'' des'''4. ees'''8 |  % 76
   f''' ees''' des''' c''' bes''4 des'''~ |  % 77
   des''' c''' bes''2 |  % 78
@@ -134,10 +134,10 @@ sopMusic =  {
   bes'4 bes' ees''8 f'' ees'' des'' |  % 23
   c'' bes' aes' bes' c''4 d'' |  % 24
   e'' f'' f'' e'' |  % 25
-  f''2 r2 |  % 26
-  R1 |  % 27
-  R1 |  % 28
-  r2. g'4 |  % 29
+  f''2 f''~ |  % 26
+  f'' c'''~ |  % 27
+  c'''4 bes'' aes''2 |  % 28
+  g''2. g'4 |  % 29
   g'2 r4 c'' \f |  % 30
   ees''8 d'' c'' bes' aes' g' f'4~ |  % 31
   f' e' aes'2 |  % 32
@@ -463,7 +463,7 @@ bassMusic = {
   ees2. f4 | % 67
   g2. f4 | % 68
   e4. e8 f g (aes bes) | % 69
-  c'2. bes8 aes8 | % 70
+  c'2. bes8 (aes8) | % 70
   g2 g |  % 71
   c2 r2 |  % 72
   R1 |  % 73
