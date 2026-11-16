@@ -301,85 +301,85 @@ tenorMusic = {
   bes4 bes aes aes |  % 2
   g2 f |  % 3
   g4 (e) f2 |  % 4
-  R1 |  % 5
+  r2 c'4 c'8 c'  |  % 5
   f4 bes g2 |  % 6
   f4 c'2 b4 |  % 7
-  R1 |  % 8
-  R1 |  % 9
-  r2 f'4 f'8 f'8 |  % 10
+  g4 g8 g a2  |  % 8
+  bes c'4. des'8 |  % 9
+  ees'4 ees4 f'4 f'8 f'8 |  % 10
   ees'4 ees' des' des' |  % 11
-  c'2 bes |  % 12
-  R1 |  % 13
-  R1 |  % 14
-  r2 d'4 d'8 d' |  % 15
+  c'2 r4 f'4~ |  % 12
+  f' f'8 f' ees'4 ees' |  % 13
+  des' des' c' c' |  % 14
+  g'2 d'4 d'8 d' |  % 15
   e'4 f'2 (e'4) |  % 16
   f'2. c'4 | %17
   f'4 ees' ees'2 |  % 18
-  ees'1 \> |  % 19
-  R1 \! |  % 20
-  R1 |  % 21
+  ees'2. \> aes4 |  % 19
+  des'8 \! ees' des' c' bes4 bes   |  % 20
+  ees'8 f' ees' des' c'4 c'  |  % 21
   r4 f4 \mp bes8 c' bes aes |  % 22
   g4 g c'8 des' c' bes |  % 23
   aes bes (c' bes aes4) g8 (f) |  % 24
   g4 bes g2 |  % 25
-  r2 des'2~ |  % 26
+  c'4 c' des'2~ |  % 26
   des'2 c' |  % 27
   f'2. ees'4 |  % 28
   d'4 (c') d'2 |  % 29
   c'1 |  % 30
-  r2. c'4 \f |  % 31
-  ees'8 d' c' bes aes g f4~ |  % 32
+  r4 c \f f8 g aes bes  |  % 31
+  ees'8  d' c' bes aes g f4~ |  % 32
   f4 e4 aes2 |  % 33
-  R1 |  % 34
+  c'8 bes c'2 b4  |  % 34
   r4 c' e'8 d' c' bes |  % 35
   aes4 aes g g |  % 36
-  R1 | % 37
-  r4 c' g8 aes bes g | % 38
-  aes8 bes c' d' ees'2 |  % 39
-  R1 |  % 40
+  f' f' r4 f'  | % 37
+  c'8 d' ees' f' g'2 | % 38
+  c'4 aes ees8 f g ees |  % 39
+  f g aes bes c'4 c'  |  % 40
   r4 c'4 f8 g aes bes | % 41 
   c'8 bes c' d' ees'4 bes8 c' |  % 42
   d'8 c' d' ees' f'2 |  % 43
   c'4. d'8 ees' d' ees' f' |  % 44
   g'4 ees' d'2 | % 45
   c'4. (d'8) \> ees'2 |  % 46
-  ees'2 \! \p r2 |  % 47
-  R1 |  % 48
-  R1 |  % 49
-  R1 |  % 50
-  R1 |  % 51
+  ees'4 \! \p aes4 aes aes |  % 47
+  ees'2. bes4 |  % 48
+  f'4. c'8 ees'4 aes8 (bes) |  % 49
+  c'2. g4 |  % 50
+  bes f' d'4. d'8 |  % 51
   r4 c'2 bes4 |  % 52
   aes2 g |  % 53
   f1 |  % 54
-  R1 |  % 55
-  R1 |  % 56
+  r4 bes ees'2~ |  % 55
+  ees' des' |  % 56
   r4 c'4 ees'2 | % 57
-  r2 des'2 |  % 58
+  bes2 des'2 |  % 58
   c'2 bes |  % 59
-  R1 |  % 60
+  c'2 aes  |  % 60
   d'2 ees' |  % 61
-  r2 g'2 \f |  % 62
+  f4 f4 g'2 \f |  % 62
   e'4 e' f'2~ |  % 63
   f'2 e'2 |  % 64
-  f'2 c'2 | % 65
-  R1 |  % 66
-  R1 |  % 67
-  g'4 f'8 (ees') d'4 d' |  % 68
-  g2 r2 |  % 69
-  R1 |  % 70
-  r2 g'4 d' |  % 71
+  f'2 aes2 | % 65
+  r4 aes8 bes c'2~ |  % 66
+  c'4 bes8 aes g2 |  % 67
+  g'4 f'8 (ees') b2 |  % 68
+  g2 c'4 c'~  |  % 69
+  c'8 d' ees' f' g'2~ |  % 70
+  g'4 ees' g'4 d' |  % 71
   ees'4. f'8 g' f' ees' d' |  % 72
-  c'4 f'  f' e' |  % 73
-  f' c' c' ees' |  % 74
-  R1 |  % 75
-  R1 |  % 76
-  R1 |  % 77
-  R1 |  % 78
-  R1 |  % 79
-  R1 |  % 80
+  aes4. bes8 c'2 |  % 73
+  f'4 c' c' ees' |  % 74
+  des'4 bes2 a4 |  % 75
+  bes f' f' bes |  % 76
+  des'4. ees'8 f' ees' (des' c') |  % 77
+  bes4 aes bes2 |  % 78
+  ees'4 ees ees'2 |  % 79
+  ees'1 |  % 80
   ees4. f8 g4 f | % 81
   ees4. ees8  f2 |  % 82
-  R1 |  % 83
+  c'4. c'8 g g bes4 |  % 83
   g4 \< f c'4. c'8 |  % 84
   a1 \! \f \fermata |  % 85
   \bar "|."
@@ -424,15 +424,15 @@ bassMusic = {
   f |  % 28
   g |  % 29
   r4 c \f f8 g aes8 bes8 |  % 30
-  c'2 r2 |  % 31
+  c'2 r4 c'4 |  % 31
   r4 c f8 g aes (bes) |  % 32
   c'2 r4 f4 |  % 33
   c8 d ees f g2 |  % 34
   c2 r4 c4|  % 35
   f,8 g, aes, bes, c2 |  % 36
   f,2 r2 |  % 37
-  R1 |  % 38
-  R1 |  % 39
+  r4 c' g8 aes bes g  |  % 38
+  aes8 bes c' d' ees'2 |  % 39
   r4 f4  c8 d ees f | % 40
   g ees f g aes4. (g8) | % 41
   f2 ees2 | % 42
@@ -466,7 +466,7 @@ bassMusic = {
   c'2. bes8 (aes8) | % 70
   g2 g |  % 71
   c2 r2 |  % 72
-  R1 |  % 73
+  c'4 f'  f' e'  |  % 73
   r4 f4 f4 c4 | % 74
   des4. ees8 (f2) | % 75
   bes,1~ |  % 76
