@@ -396,17 +396,17 @@ bassMusic = {
 
   R1 |  % 1
   R1 |  % 2
-  R1 |  % 3
-  R1 |  % 4
-  r2 c4 \mf c8 c |  % 5
+  r2 c'4 \mf c'8 c' |  % 3
+  bes4 bes aes aes |  % 4
+  g2 c4 c8 c |  % 5
   d4 d e e |  % 6
   f2 d |  % 7
   c f, |  % 8
   r2 f4 f8 f |  % 9
   ees4 ees des des |  % 10
   c2 r2 |  % 11
-  R1 |  % 12
-  r2 c'4 c'8 c' |  % 13
+  r2 bes,2 |  % 12
+  c2 c'4 c'8 c' |  % 13
   bes4 bes aes aes |  % 14
   g1 |  % 15
   c |  % 16
@@ -415,7 +415,7 @@ bassMusic = {
   aes, r2 |  % 19
   R1 |  % 20
   R1 |  % 21
-  r2. bes,4 \mp  |  % 22
+  f2. bes,4 \mp  |  % 22
   ees8 f ees des c4 c |  % 23
   f8 g aes g f4 ees8 d |  % 24
   c4 bes, c2 |  % 25
