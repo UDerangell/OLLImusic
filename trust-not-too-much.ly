@@ -2,11 +2,12 @@
 \header {
     title="Trust Not Too Much, Fair Youth"
     composer="Orlando Gibbons (1583-1625)"
-    tagline = ##f
+    poet = "Arr. E. Rangell for OLLI Recorder Ensemble"
+    tagline = "Created with Lilypond.  Source Files: https://github.com/UDerangell/OLLImusic"
 }
 
 sopMusic =  { 
- \clef "treble^8" \key c \minor \time 2/2 
+ \clef "treble^8" \key c \minor \time 2/2 \tempo 4 = 120
  \stemNeutral
  \set Staff.instrumentName = "Soprano"
  \override Rest.staff-position = #0 
@@ -102,7 +103,7 @@ sopMusic =  {
 } 
 
 altoMusic = {
-  \clef treble \key c \minor \time 2/2 
+  \clef treble \key c \minor \time 2/2 \tempo 4 = 120
   \stemNeutral
   \set Staff.instrumentName = "Alto"
   \override Rest.staff-position = #0 
@@ -154,7 +155,7 @@ sopMusic =  {
   r4 bes' f'4. g'8  |  % 43
   aes' g' aes' bes' c''2  |  % 44
   g'4 c''2 b'4 |  % 45
-  c''4 aes' \> ees'2 |  % 46
+  c''4 aes' \> r2 |  % 46
   r4 \! c'' \p c'' c'' |  % 47
   bes'8 aes' (bes' c'') bes'4 des''~ |  % 48
   des''4 c''4. bes'8 (aes'4) |  % 49
@@ -175,8 +176,8 @@ sopMusic =  {
   c''1 |  % 64
   c''2 r4 aes'8 \mf bes' |  % 65
   c''2. bes'8 (aes') |  % 66
-  g'2. f'8 (ees') |  % 67
-  d'4 aes'4 g'2~ |  % 68
+  g'2. f''8 (ees'') |  % 67
+  d''4 aes'4 g'2~ |  % 68
   g'4 g' aes'8 bes' c'' d'' |  % 69
   ees''2. d''8 (c'') |  % 70
   b'4 c''2 (b'4) |  % 71
@@ -198,99 +199,10 @@ sopMusic =  {
 }
 
 % ---------------- Part 3  (MIDI track 3, range 48-68) ----------------
-partThree = {
-  \clef bass \key c \minor \time 2/2 
-  R1 |  % 1
-  R1 |  % 2
-  r2 c'4 c'8 c' |  % 3
-  bes4 bes aes aes |  % 4
-  g1 |  % 5
-  R1 |  % 6
-  R1 |  % 7
-  g4 g8 g a2 |  % 8
-  bes c'4. des'8 |  % 9
-  ees'4 g aes2 |  % 10
-  g r2 |  % 11
-  r2. f'4~ |  % 12
-  f' f'8 f' ees'4 ees' |  % 13
-  des' des' c' c' |  % 14
-  g'2 r2 |  % 15
-  R1 |  % 16
-  R1 |  % 17
-  R1 |  % 18
-  r2. aes4 |  % 19
-  des'8 ees' des' c' bes4 bes |  % 20
-  ees'8 f' ees' des' c'4 c' |  % 21
-  f'2. f'4 |  % 22
-  g'8 aes' g' f' r2 |  % 23
-  R1 |  % 24
-  R1 |  % 25
-  c'4 c' r2 |  % 26
-  f' ees' |  % 27
-  d'4 d' c'2~ |  % 28
-  c' b |  % 29
-  R1 |  % 30
-  r4 c f8 g aes bes |  % 31
-  c'2 r2 |  % 32
-  r4 c f8 g aes bes |  % 33
-  c' bes c'4~ c' b |  % 34
-  R1 |  % 35
-  c'4 f'~ f' e' |  % 36
-  f' f' r4 f' |  % 37
-  c'8 d' ees' f' g'2 |  % 38
-  c'4 aes ees8 f g ees |  % 39
-  f g aes bes c'4 c' |  % 40
-  R1 |  % 41
-  R1 |  % 42
-  r4 bes f4. g8 |  % 43
-  aes g aes bes c'2 |  % 44
-  g4 c'~ c' b |  % 45
-  c' aes ees2 |  % 46
-  r2 aes4 aes |  % 47
-  ees'2. bes4 |  % 48
-  f'4. c'8 ees'4 aes8 bes |  % 49
-  c'2. g4 |  % 50
-  bes f' d'4. d'8 |  % 51
-  c'4. d'8 e' f' g'4~ |  % 52
-  g'8 f' f'4~ f' e' |  % 53
-  R1 |  % 54
-  r4 bes ees'2~ |  % 55
-  ees' d' |  % 56
-  R1 |  % 57
-  R1 |  % 58
-  a4 a bes2~ |  % 59
-  bes aes |  % 60
-  R1 |  % 61
-  f4 f bes2~ |  % 62
-  bes aes |  % 63
-  R1 |  % 64
-  r4 f8 g aes2 |  % 65
-  r4 aes8 bes c'2~ |  % 66
-  c'4 bes8 aes g2 |  % 67
-  r4 a b2 |  % 68
-  r2 c'4 c'~ |  % 69
-  c'8 d' ees' f' g'2~ |  % 70
-  g'4 ees' d'2 |  % 71
-  r4 c' c' g |  % 72
-  aes4. bes8 c'2 |  % 73
-  f4. g8 aes bes c'4~ |  % 74
-  c' bes~ bes a |  % 75
-  bes f' f' bes |  % 76
-  des'4. ees'8 f' ees' des' c' |  % 77
-  bes4 aes bes2 |  % 78
-  r4 ees ees'2 |  % 79
-  ees'1 |  % 80
-  R1 |  % 81
-  g4 aes~ aes g8 f |  % 82
-  c'4. c'8 g g bes4 |  % 83
-  R1 |  % 84
-  f |  % 85
-  \bar "|."
-}
 
 % ---------------- Part 4  (MIDI track 4, range 48-70) ----------------
 tenorMusic = {
-  \clef treble \key c \minor \time 2/2 
+  \clef treble \key c \minor \time 2/2 \tempo 4 = 120
   \stemNeutral
   \set Staff.instrumentName = "Tenor"
   \override Rest.staff-position = #0 
@@ -387,7 +299,7 @@ tenorMusic = {
 
 % ---------------- Part 5  (MIDI track 5, range 41-60) ----------------
 bassMusic = {
-  \clef "bass^8" \key c \minor \time 2/2 
+  \clef "bass^8" \key c \minor \time 2/2 \tempo 4 = 120
   \stemNeutral
   \set Staff.instrumentName = "Bass"
   \override Rest.staff-position = #0 
@@ -506,4 +418,6 @@ bassMusic = {
 	      >>
 	  
 	  >>
+  \layout { }
+  \midi { }
 }
